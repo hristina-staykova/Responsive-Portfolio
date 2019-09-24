@@ -130,43 +130,69 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    section {
+        width: 60%;
+        margin: 20px;
+    }    
 
-
-
+    .profilepic {
+        width: 50%;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        width: auto;
+    }
 
+    div {
+        width: 100vw;
+        margin: auto;
+    }
 
-    
+    nav {
+        margin: 0 20px;
+    }
+
+    h1.label {
+        margin: 0 20px;
+    }
+
+    section {
+        width: auto;
+        margin: 20px;
+    }
+
+    .profilepic {
+        width: 50%;
+    }
+        
 }
 
 @media screen and (max-width: 640px) {
 
-    body {
-        width: 640px;
-    }
-
     h1.label {
         width: 100vw;
         clear: both;
+        margin: 0;
     }
 
     nav {
         clear: both;
         width: 100vw;
+        margin: 0;
     }
 
     div {
         clear: both;
-        margin: auto;
         text-align: center;
         width: 100vw;
     }
 
     section {
-    width: auto;
-    margin: 20px;
+        width: auto;
+        margin: 20px;
     }
         
     p {
