@@ -1,221 +1,219 @@
 body {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../images/gravel/gravel.png");
-    background-color: #dddddd;
-    margin: 0;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/gravel/gravel.png");
+  background-color: #dddddd;
+  margin: 0;
 }
 
 .label {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    float: left;
-    padding-bottom: 10;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left;
+  padding-bottom: 10;
 }
 
 nav {
-    padding: 29px 0px;
+  padding: 29px 0px;
 }
 
 a {
-    color: #777777;
-    text-decoration: none;
-}
-
-#mnavlink {
-    margin: 0px 10px;
-    padding: 0px 10px;
-    border-right: 2px solid #cccccc;
-    border-left: 2px solid #cccccc;
-}
-
-h1 {
-    padding: 20px 0px;
-    color: #4aaaa5;
-    margin: 0;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-header {
-    text-align: right;
-    background-color: #ffffff;
-    border-bottom: 4px solid #cccccc;
-}
-
-div {
-    width: 960px;
-    margin: auto;
-}
-
-section {
-    width: 880px;
-    clear: both;
-    margin: 20px auto 40px;
-    text-align: left;
-    background-color: #ffffff;
-    padding: 20px 40px;
-    min-height: calc(100vh - 40px);
-    overflow: auto;
-}
-
-article {
-    align-content: center;
-    text-align: justify;
-    border-top: 3px solid #dddddd;
-    padding-top: 20px;
-    margin: 0;
-    font-size: 18px;
-}
-
-#name {
-    width: 100%;
-    margin: 10px 0px 20px 0px;
-    padding: 10px 0px;
-}
-
-#email {
-    width: 100%;
-    margin: 10px 0px 20px 0px;
-    padding: 10px 0px;
-}
-
-#message {
-    width: 100%;
-    margin: 10px 0px 20px 0px;
-    padding: 10px 0px;
-    height: 150px;
-}
-
-#submit {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 10px; 
-    font-size: 18px;
+  color: #777777;
+  text-decoration: none;
 }
 
 p {
-    margin: 0;
+  margin: 0;
+}
+
+ul {
+  font-size: large;
+  list-style-position: inside;
+}
+
+#mnavlink {
+  margin: 0px 10px;
+  padding: 0px 10px;
+  border-right: 2px solid #cccccc;
+  border-left: 2px solid #cccccc;
+}
+
+h1 {
+  padding: 20px 0px;
+  color: #4aaaa5;
+  margin: 0;
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+header {
+  text-align: right;
+  background-color: #ffffff;
+  border-bottom: 4px solid #cccccc;
+}
+
+div {
+  width: 960px;
+  margin: auto;
+}
+
+section {
+  width: 880px;
+  clear: both;
+  margin: 20px auto 40px;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  min-height: calc(100vh - 40px);
+  overflow: auto;
+}
+
+article {
+  align-content: center;
+  text-align: justify;
+  border-top: 3px solid #dddddd;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 18px;
+}
+
+#name {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  padding: 10px 0px;
+}
+
+#email {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  padding: 10px 0px;
+}
+
+#message {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  padding: 10px 0px;
+  height: 150px;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 18px;
 }
 
 .profilepic {
-    float: left;
-    padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
 
 .imgcontainer {
-    position: relative;
-    float: left;
-    width: 200px;
-    margin: 0px 30px 40px 0px;
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 0px 30px 40px 0px;
 }
 
 p.label {
-    position: absolute;
-    top: 120px;
-    bottom: 20px;
-    width: 200px;
-    text-align: center;
-    padding: 20px 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+  position: absolute;
+  top: 120px;
+  bottom: 20px;
+  width: 200px;
+  text-align: center;
+  padding: 20px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 footer {
-    background-color: #666666;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    width: 100%;
-    padding-top: 20px;
-    height: 40px;
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  width: 100%;
+  padding-top: 20px;
+  height: 40px;
 }
 
 @media screen and (max-width: 980px) {
-    section {
-        width: 60%;
-        margin: 20px;
-    }    
+  section {
+    width: 60%;
+    margin: 20px;
+  }
 
-    .profilepic {
-        width: 50%;
-        padding-bottom: 20px;
-    }
+  .profilepic {
+    width: 50%;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        width: auto;
-    }
+  body {
+    width: auto;
+  }
 
-    div {
-        width: 100vw;
-        margin: auto;
-    }
+  div {
+    width: 100vw;
+    margin: auto;
+  }
 
-    nav {
-        margin: 0 20px;
-    }
+  nav {
+    margin: 0 20px;
+  }
 
-    h1.label {
-        margin: 0 20px;
-    }
+  h1.label {
+    margin: 0 20px;
+  }
 
-    section {
-        width: auto;
-        margin: 20px;
-    }
+  section {
+    width: auto;
+    margin: 20px;
+  }
 
-    .profilepic {
-        width: 50%;
-    }
-        
+  .profilepic {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  body {
+    width: auto;
+  }
 
-    h1.label {
-        width: 100vw;
-        clear: both;
-        margin: 0;
-    }
+  h1.label {
+    width: 100vw;
+    clear: both;
+    margin: 0;
+  }
 
-    nav {
-        clear: both;
-        width: 100vw;
-        margin: 0;
-    }
+  nav {
+    clear: both;
+    width: 100vw;
+    margin: 0;
+  }
 
-    div {
-        clear: both;
-        text-align: center;
-        width: 100vw;
-    }
+  div {
+    clear: both;
+    text-align: center;
+    width: 100vw;
+  }
 
-    section {
-        width: auto;
-        margin: 20px;
-    }
-        
-    p {
-        clear: both;
-        padding-top: 20px;
-    }
+  section {
+    width: auto;
+    margin: 20px;
+  }
 
-    .profilepic {
-        width: 100%;
-    }
+  .profilepic {
+    width: 100%;
+  }
 
-    body {
-        width: auto;
-    }
+  .imgcontainer {
+    width: 380px;
+  }
 
-    .imgcontainer {
-        width: 380px;
-    }
-
-    p.label {
-        top: 120px;
-        bottom: 20px;
-        right: 90px;
-        width: 200px;
-    }
+  p.label {
+    top: 120px;
+    bottom: 20px;
+    right: 90px;
+    width: 200px;
+  }
 }
